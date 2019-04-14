@@ -35,10 +35,12 @@ export default class HostClientScreen extends Component {
     return (
       <View style={styles.container}>
         <Image
+        {/* Image of Logo*/}
           style={{ width: 240, height: 240, marginTop: 80 }}
           source={require("../assets/logo-final-black.png")}
         />
         <Image
+        {/* Image of Partify Text*/}
           style={{ width: 235, height: 76, marginTop: 10 }}
           source={require("../assets/partify-word-logo.png")}
         />
@@ -47,6 +49,7 @@ export default class HostClientScreen extends Component {
           onPress={this.hostPartyPressed}
         >
           <Image
+          {/* Throw a party button*/}
             style={{ width: 240, height: 60, resizeMode: "contain" }}
             source={require("../assets/throw-party.png")}
           />
@@ -56,6 +59,7 @@ export default class HostClientScreen extends Component {
           onPress={this.clientPartyPressed}
         >
           <Image
+          {/* Crash a party button*/}
             style={{ width: 240, height: 60, resizeMode: "contain" }}
             source={require("../assets/crash-party.png")}
           />
