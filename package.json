@@ -1,0 +1,26 @@
+{
+  "name": "partify",
+  "version": "1.0.0",
+  "description": "A Spotify-powered app that enables users to create and host parties where multiple users can add to a singular queue",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd server && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SphinxNumberNine/Partify.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SphinxNumberNine/Partify/issues"
+  },
+  "homepage": "https://github.com/SphinxNumberNine/Partify#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.5.1",
+    "randomstring": "^1.1.5",
+    "socket.io": "^2.2.0"
+  }
+}
