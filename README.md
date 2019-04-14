@@ -9,3 +9,5 @@ Users can specify whether they want to "host" a party or "crash" a party. If the
 ## How to test it
 
 Clone the repo, cd into myapp, and build the project! The server is hosted on Heroku, so no setup is required.
+
+
